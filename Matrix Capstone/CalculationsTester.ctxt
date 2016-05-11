@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=args
-comment0.target=void\ main(java.lang.String[])
+comment0.params=
+comment0.target=void\ testAdd()
 comment1.params=
 comment1.target=void\ returnRow()
 comment2.params=
@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=void\ testRemoveRowCol()
 comment4.params=
 comment4.target=void\ testDeterminant()
-numComments=5
+comment5.params=
+comment5.target=void\ testInverse()
+numComments=6

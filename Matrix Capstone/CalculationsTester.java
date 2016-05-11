@@ -1,21 +1,19 @@
 public class CalculationsTester
 {
 
-    public static void main(String[] args)
+    public static void testAdd()
     {
-        int[][] m1 = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
-        int[][] m2 = new int[][]{{7,8,9},{4,5,6},{1,2,3}};
-        Matrix testm1 = new Matrix(m1);
-        Matrix testm2 = new Matrix(m2);
-        testm1.show();
-        testm2.show();
+        int[][] matrix1 = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
+        int[][] matrix2 = new int[][]{{7,8,9},{4,5,6},{1,2,3}};
+        Matrix m1 = new Matrix(matrix1);
+        Matrix m2 = new Matrix(matrix2);
+        m1.show();
+        m2.show();
 
         Calculations c1 = new Calculations();
-        //testMatrix.transpose();
-        //testMatrix.show();
 
-        Matrix testMatrix3 = c1.add(testm1,testm2);
-        testMatrix3.show();
+        Matrix m3 = c1.add(m1,m2);
+        m3.show();
     }
 
     public static void returnRow()
@@ -64,5 +62,15 @@ public class CalculationsTester
         Calculations c1 = new Calculations();
         int sum = c1.determinant(m1);
         System.out.println(sum);
+    }
+    
+    public static void testInverse()
+    {
+        int[][] matrix1 = new int[][]{{17,10,6,11,9},{12,14,18,31,21},{13,17,29,12,14},{24,16,14,15,14},{21,32,24,41,16}};
+        Matrix m1 = new Matrix(matrix1);
+        m1.show();
+        Calculations c1 = new Calculations();
+        Matrix m2 = c1.inverse(m1);
+        m2.show();
     }
 }
