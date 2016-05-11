@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=matrix1
+comment0.target=Matrix(int[][])
+comment1.params=rows\ cols
+comment1.target=Matrix(int,\ int)
+comment10.params=col
+comment10.target=int[]\ getCol(int)
+comment2.params=
+comment2.target=int[][]\ getArray()
+comment3.params=
+comment3.target=void\ show()
+comment4.params=
+comment4.target=void\ transpose()
+comment5.params=
+comment5.target=int\ getNumRows()
+comment6.params=
+comment6.target=int\ getNumCols()
+comment7.params=row\ col
+comment7.target=int\ get(int,\ int)
+comment8.params=row\ col\ element
+comment8.target=void\ enter(int,\ int,\ int)
+comment9.params=row
+comment9.target=int[]\ getRow(int)
+numComments=11
